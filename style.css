@@ -1,0 +1,46 @@
+body {
+    background: url("https://cdn.impactinit.com/cdn/x/x@cfcf75e788/smss52/smsimg30//pv/isignstockcontributors/iss_21327_00824.jpg");
+    align-items: center;
+}
+
+.main {
+    display: grid;
+    /* align-items: center; */
+    grid-gap: none;
+    justify-content: center;
+
+    /* border: 5px solid white; */
+
+    animation-name: fade-in;
+    animation-duration: 5s;
+}
+
+h1 {
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 4em;
+
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+h1:hover {
+    color: orangered;
+    font-size: 5em;
+}
+
+p {
+    color: orange;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+@keyframes fade-in {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}

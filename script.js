@@ -1,0 +1,1 @@
+alert("Bu site kimliği belirsiz bir hacker tarafından hacklenmiştir!");
