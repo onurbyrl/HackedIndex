@@ -1,1 +1,1 @@
-alert("Bu site kimliği belirsiz bir hacker tarafından hacklenmiştir!");
+alert("This site is hacked by unknown hacker!");
